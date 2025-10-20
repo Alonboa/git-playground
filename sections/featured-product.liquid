@@ -109,6 +109,9 @@
                   <h2 class="product__title {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
                     {%- unless placeholder -%}
                       {{ product.title | escape }}
+                      {% if section.settings.show_vendor %}
+                        <span class="product__vendor">{{ product.vendor }}</span>
+                      {% endif %}
                     {%- else -%}
                       {{ 'onboarding.product_title' | t }}
                     {%- endunless -%}
@@ -1467,6 +1470,12 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
+    },
+    {
+      "type": "checkbox",
+      "id": "show_vendor",
+      "default": true,
+      "label": "t:sections.featured-product.settings.show_vendor.label"
     }
   ],
   "presets": [
