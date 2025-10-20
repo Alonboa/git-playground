@@ -6,6 +6,16 @@
   </div>
 </div>
 
+{% for block in section.blocks %}
+  <div class="feature-section__block">
+    <div class="feature-section__block-content">
+      <div class="feature-section__block-content-text">
+        {{ block.settings.number }}
+      </div>
+    </div>
+  </div>
+{% endfor %}
+
 {% schema %}
 {
   "name": "Feature Section",
@@ -14,6 +24,19 @@
       "type": "text",
       "id": "title",
       "label": "Title"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "numbers",
+      "name": "Numbers",
+      "settings": [
+        {
+          "type": "number",
+          "id": "number",
+          "label": "Number"
+        }
+      ]
     }
   ],
   "presets": [
