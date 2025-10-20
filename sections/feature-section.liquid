@@ -1,0 +1,25 @@
+<div class="feature-section">
+  <div class="feature-section__container">
+    <div class="feature-section__content">
+      <h2 class="feature-section__title">{{ section.settings.title }}</h2>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Feature Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Feature Section"
+    }
+  ]
+}
+{% endschema %}
