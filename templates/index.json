@@ -69,6 +69,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
+        "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 44,
@@ -108,11 +109,131 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "featured_product_ygbcny": {
+      "type": "featured-product",
+      "blocks": {
+        "text_CXQ6fL": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_VieXNP": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_D9eBAn": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_Nch3w4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_HLUdR9": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_r9i7RK": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_FUDP6U": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_CXQ6fL",
+        "title_VieXNP",
+        "price_D9eBAn",
+        "variant_picker_Nch3w4",
+        "quantity_selector_HLUdR9",
+        "buy_buttons_r9i7RK",
+        "share_FUDP6U"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_TYchW9": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_DQB9pQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_zNK7hr": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_rbQeeM": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_DQB9pQ",
+        "text_zNK7hr",
+        "buttons_rbQeeM"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
-    "f9354760-ff1e-4b31-963d-f30f9afe38fa"
+    "f9354760-ff1e-4b31-963d-f30f9afe38fa",
+    "featured_product_ygbcny",
+    "image_banner_TYchW9"
   ]
 }
