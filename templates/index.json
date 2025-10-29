@@ -133,20 +133,26 @@
         }
       },
       "block_order": [
-        "featured_collection_JM3hFp",
-        "featured_collection_H8JNBf",
-        "featured_collection_FFBEU4"
+        "text_4bPbMj",
+        "title_tcMyRH",
+        "price_YWAeFc",
+        "variant_picker_a4JDaW",
+        "quantity_selector_NcpDL3",
+        "buy_buttons_Q8MkhN",
+        "share_T3FHpq"
       ],
-      "name": "t:sections.collection-list.presets.name",
+      "name": "t:sections.featured-product.presets.name",
       "settings": {
-        "title": "Collections",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
+        "product": "",
         "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -180,18 +186,28 @@
         }
       },
       "block_order": [
-        "heading_GLgacq",
-        "text_wU3EKr",
-        "button_qhiFH6"
+        "text_MpWcEE",
+        "title_rY9xQp",
+        "price_jegQQq",
+        "variant_picker_k9CDzt",
+        "quantity_selector_Hpw9T9",
+        "buy_buttons_UMCkhx",
+        "share_wk9niP"
       ],
-      "name": "t:sections.rich-text.presets.name",
+      "name": "t:sections.featured-product.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "product": "",
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
