@@ -102,7 +102,6 @@
         "template--19839559336250__f9354760-ff1e-4b31-963d-f30f9afe38fa-paragraph-1",
         "template--19839559336250__f9354760-ff1e-4b31-963d-f30f9afe38fa-email_form-1"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "",
         "full_width": true,
@@ -194,7 +193,6 @@
         "padding_bottom": 52
       }
     }
-  },
   "order": [
     "image_banner",
     "featured_collection",
