@@ -30,7 +30,7 @@
             "button_style_secondary_2": false
           }
         }
-      },
+      }
       "block_order": [
         "heading",
         "button"
