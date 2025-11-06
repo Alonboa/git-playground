@@ -11,6 +11,7 @@
     <div class="feature-section__block-content">
       <div class="feature-section__block-content-text">
         {{ block.settings.number }}
+        {{ block.settings.description }}
       </div>
     </div>
   </div>
@@ -35,6 +36,17 @@
           "type": "number",
           "id": "number",
           "label": "Number"
+        }
+      ]
+    },
+    {
+      "type": "description",
+      "name": "Description",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description"
         }
       ]
     }
