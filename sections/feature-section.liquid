@@ -10,6 +10,7 @@
   <div class="feature-section__block">
     <div class="feature-section__block-content">
       <div class="feature-section__block-content-text">
+        {{ block.settings.number }}
         {{ block.settings.description }}
       </div>
     </div>
@@ -27,6 +28,17 @@
     }
   ],
   "blocks": [
+    {
+      "type": "numbers",
+      "name": "Numbers",
+      "settings": [
+        {
+          "type": "number",
+          "id": "number",
+          "label": "Number"
+        }
+      ]
+    },
     {
       "type": "description",
       "name": "Description",
